@@ -1,6 +1,6 @@
 class Pessoa
   def initialize(nome, idade) # Initialize é o construtor da classe
-    @nome = nome # Recebe a variavel com @ que está dentro do escopo da classe, se tornando um atributo da mesma
+    @nome = nome # Recebe a variavel com @ que está dentro do escopo da instancia da classe, se tornando um atributo do objeto
     @idade = idade
   end
 
